@@ -128,5 +128,3 @@ app.delete('/delete/:id', (req,res) => {
 
 // export the app and the itemBuilder
 module.exports = {app, itemBuilder};
-
-// Sunil was here
