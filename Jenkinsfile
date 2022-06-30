@@ -35,7 +35,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 //
-                sh "kubectl apply -f kubernetes"
+                echo "Deploy stage"
             }
         }
     }
