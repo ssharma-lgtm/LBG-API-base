@@ -1,6 +1,5 @@
 pipeline {
     agent any
-     tools {nodejs "nodejs"}
     environment {
         APP_NAME="lbg-api-app-harry"
         TAG="latest"
