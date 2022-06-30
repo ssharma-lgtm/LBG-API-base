@@ -1,8 +1,8 @@
 pipeline {
     agent any
     environment {
-        APP_NAME="lbg-api-app-harry"
-        TAG="latest"
+        APP_NAME="sunil-lbg-app"
+        TAG="v1"
         // DOCKERHUB_CREDS=credentials("DOCKERHUB_CREDS")
         REGISTRY="gcr.io/lbg6-130622"
     }
