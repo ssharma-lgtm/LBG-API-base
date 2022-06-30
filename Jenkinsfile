@@ -6,6 +6,7 @@ pipeline {
         // DOCKERHUB_CREDS=credentials("DOCKERHUB_CREDS")
         REGISTRY="gcr.io/lbg6-130622"
     }
+    tools {nodejs "nodejs"}
     stages {
         stage('Test') {
             steps {
