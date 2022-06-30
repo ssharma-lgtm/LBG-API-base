@@ -4,7 +4,6 @@ metadata:
   name: lbg-api-app
   labels:
     app: lbg-api-app
-  namespace: production
 spec:
   type: LoadBalancer
   selector:
