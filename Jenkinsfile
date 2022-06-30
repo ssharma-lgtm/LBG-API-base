@@ -1,12 +1,12 @@
 pipeline {
     agent any
+     tools {nodejs "nodejs"}
     environment {
         APP_NAME="lbg-api-app-harry"
         TAG="latest"
         // DOCKERHUB_CREDS=credentials("DOCKERHUB_CREDS")
         REGISTRY="gcr.io/lbg6-130622"
     }
-    tools {nodejs "nodejs"}
     stages {
         stage('Test') {
             steps {
